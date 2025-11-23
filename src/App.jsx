@@ -6,7 +6,7 @@ let num =15
 function App() {
 const counter = ()=>{
 //  console.log("clicked",Math.random());
-num =num+1
+num =num+1;
 }
 
   return (

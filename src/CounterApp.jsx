@@ -12,18 +12,18 @@ function CounterApp() {
   }
 
   // decrement
-  const removeValue = () => {
+  const  decrement= () => {
    if(count>0) setCount(count - 1);
   };
 
   return (
     <>
       <h2>Countr APP WITH HOOKS ::{count} </h2>
-      <button onClick={incrementer}>Increment{count}</button>
+      <button onClick={incrementer}>Incremented value :{count}</button>
 
       <br />
 
-      <button onClick={removeValue}>decrement{count}</button>
+      <button onClick={decrement}>decremented value : {count}</button>
       <p>footer:{count}</p>
 
       <h1>{count}</h1>
